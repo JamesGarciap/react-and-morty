@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './containers/App';
 
 const $container = document.getElementById('app');
 
 ReactDOM.render(
-  <h1>Hello React</h1>,
+  <App/>,
   $container
 )
